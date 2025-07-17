@@ -25,4 +25,26 @@ A terminal-based Tic-Tac-Toe game built in C++ where the computer plays using th
 <br>
 
 ## 📸 Screenshot
+🎮 Welcome to Tic-Tac-Toe (Human vs AI)
+
+| |
+---+---+---
+| |
+---+---+---
+| |
+
+Enter your move (row and column [1-3]):
+
+<br>
+
+## 🧩 How Minimax Works
+
+The **Minimax algorithm** is used to simulate all possible future game states:
+- AI assumes opponent plays optimally.
+- Recursively assigns scores (+10 for win, -10 for loss, 0 for draw).
+- AI always picks the move that **maximizes its score** and **minimizes opponent's chance to win**.
+
+> This makes the AI impossible to beat.
+
+<br>
 
